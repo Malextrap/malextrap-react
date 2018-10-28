@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "../framework.css";
+import "./framework.css";
 
 class Selector extends Component {
 

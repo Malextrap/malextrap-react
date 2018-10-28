@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import * as ReactDOM from "react-dom";
-import "../framework.css";
+import "./framework.css";
 
 class Modal extends Component {
 
