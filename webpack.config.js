@@ -6,6 +6,7 @@ module.exports = {
     Button: "./src/Button.js",
     Card: "./src/Card.js",
     Modal: "./src/Modal.js",
+    Progress: "./src/Progress.js",
     Selector: "./src/Selector.js",
     Switcher: "./src/Switcher.js"
   },
