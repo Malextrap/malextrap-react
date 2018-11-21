@@ -5,10 +5,12 @@ module.exports = {
     Alert: "./src/Alert.js",
     Button: "./src/Button.js",
     Card: "./src/Card.js",
+    Label: "./src/Label.js",
     Modal: "./src/Modal.js",
     Progress: "./src/Progress.js",
     Selector: "./src/Selector.js",
-    Switcher: "./src/Switcher.js"
+    Switcher: "./src/Switcher.js",
+    Tooltip: "./src/Tooltip.js"
   },
   output: {
     path: path.resolve(__dirname, 'lib'),
