@@ -1,6 +1,6 @@
 {
   "name": "malextrap-react",
-  "version": "1.0.4c",
+  "version": "1.0.5c",
   "description": "A malextrap framework in reactjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
