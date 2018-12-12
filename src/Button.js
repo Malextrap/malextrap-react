@@ -22,7 +22,7 @@ class Button extends Component {
         const props = this.props;
         const space = " ";
         const properties = {
-            color: (!this.isNull(props.color) ? props.color : "") + space,
+            color: (!this.isNull(props.color) ? props.color : "blue") + space,
             text: (!this.isNull(props.text) ? props.text : "") + space,
             animated: (props.animated ? "animated" : "") + space
         };

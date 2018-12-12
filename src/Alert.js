@@ -24,7 +24,7 @@ class Alert extends Component {
         if (this.props.fade) this.fade(this.props.timeout);
 
         return <div className={"alert top " + this.props.color} style={this.css}>
-            <div className={"content"}>{this.props.content}</div>
+            <div className={"content"}>{this.props.text}</div>
             <a className={"closer"} onClick={() => this.fade(0)}/>
         </div>;
     }

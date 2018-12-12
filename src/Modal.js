@@ -25,7 +25,7 @@ class Modal extends Component {
 
         return <div className={"modal " + (props.big ? "big" : "")}>
             <div className={"modal-container"}>
-                {props.content}
+                {props.text}
                 <a className="no-decoration modal-close img-replace"/>
             </div>
         </div>

@@ -15,15 +15,15 @@ class Card extends Component {
             <div className={"card card-shadow" + space + "card-" + props.color} style={css}>
                 <div className="filter">
                     {href}
-                    <h3 className="is-text">{props.f[0]}</h3>
-                    <p className="title is-text">{props.f[1]}</p>
+                    <h3 className="is-text">{props.text[0]}</h3>
+                    <p className="title is-text">{props.text[1]}</p>
                     <div className="card-body">
-                        <h3 className="is-text">{props.f[2]}</h3>
-                        <p className="description is-text">{props.f[3]}</p>
+                        <h3 className="is-text">{props.text[2]}</h3>
+                        <p className="description is-text">{props.text[3]}</p>
                     </div>
                     <div className="card-footer">
-                        <h3 className="is-text">{props.f[4]}</h3>
-                        <p className="date is-text">{props.f[5]}</p>
+                        <h3 className="is-text">{props.text[4]}</h3>
+                        <p className="date is-text">{props.text[5]}</p>
                     </div>
                 </div>
             </div>
